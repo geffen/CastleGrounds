@@ -6,8 +6,8 @@
     "favicon": "favicon_asset"
   },
   "contact": {
-    "name": "geffen+z@gmail.com",
-    "email": "Geffenz"
+    "name": "Geffenz",
+    "email": "geffen+z@gmail.com"
   },
   "owner": "Geffenz",
   "scene": {
@@ -17,15 +17,8 @@
     ],
     "base": "138,-143"
   },
-  "communications": {
-    "type": "webrtc",
-    "signalling": "https://signalling-01.decentraland.org"
-  },
-  "policy": {
-    "contentRating": "E",
-    "fly": true,
-    "voiceEnabled": true,
-    "blacklist": []
+  "featureToggles": {
+    "voiceChat": "disabled"
   },
   "requiredPermissions": [
     "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
@@ -37,9 +30,9 @@
       "name": "spawn1",
       "default": true,
       "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": 5,
+        "y": 5,
+        "z": 10
       },
       "cameraTarget": {
         "x": 16,

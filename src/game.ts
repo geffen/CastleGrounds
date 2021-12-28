@@ -69,9 +69,9 @@ for (var x = 1.5; x < 22; x++) {
         let selector = Math.random()
 
         if (selector > 0.66) {
-            spawnGrass(grassShape, x, -.5, y)
+            spawnGrass(grassShape, x, -.3, y)
         } else if (selector > 0.33) {
-            spawnGrass(grass2Shape, x, -.3, y)
+            spawnGrass(grass2Shape, x, -.2, y)
         } else {
             spawnGrass(grass3Shape, x, .1, y)
         }
