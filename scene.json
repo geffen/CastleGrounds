@@ -1,0 +1,51 @@
+{
+  "display": {
+    "title": "CastleGrounds",
+    "description": "Right outside Zietgeist Castle",
+    "navmapThumbnail": "",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "geffen+z@gmail.com",
+    "email": "Geffenz"
+  },
+  "owner": "Geffenz",
+  "scene": {
+    "parcels": [
+      "138,-143",
+      "139,-143"
+    ],
+    "base": "138,-143"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "main": "bin/game.js",
+  "tags": [ "CastleGround" ],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "cameraTarget": {
+        "x": 16,
+        "y": 16,
+        "z": 8
+      }
+    }
+  ]
+}
