@@ -1,19 +1,14 @@
 
 const Grounds = new Entity('Grounds')
-// add a transform to the entity
-Grounds.addComponent(new Transform({ position: new Vector3(16, -.5, 8), scale: new Vector3(.5, .5, .5), rotation: Quaternion.Euler(0, 0, 0) }))
-
-// add a shape to the entity
-//cube.addComponent(new BoxShape())
-
-//const tower = new GLTFShape("models/centerCastle.gtlf")
+Grounds.addComponent(new Transform({ position: new Vector3(32, -.1, 15.6), scale: new Vector3(1, 1, 1), rotation: Quaternion.Euler(0, 0, 0) }))
 Grounds.addComponent(new GLTFShape('models/CastleGrounds.glb'))
-// add the entity to the engine
 engine.addEntity(Grounds)
+
+
 
 const RocksTrees = new Entity('RocksTrees')
 // add a transform to the entity
-RocksTrees.addComponent(new Transform({ position: new Vector3(17, -1, 8), scale: new Vector3(.4, .5, .4), rotation: Quaternion.Euler(0, 0, 0) }))
+RocksTrees.addComponent(new Transform({ position: new Vector3(17, -0.8, 8), scale: new Vector3(.4, .5, .4), rotation: Quaternion.Euler(0, 0, 0) }))
 
 // add a shape to the entity
 //cube.addComponent(new BoxShape())
@@ -22,6 +17,22 @@ RocksTrees.addComponent(new Transform({ position: new Vector3(17, -1, 8), scale:
 RocksTrees.addComponent(new GLTFShape('models/CastleGrounds2.glb'))
 // add the entity to the engine
 engine.addEntity(RocksTrees)
+
+
+
+
+
+
+
+
+const glowsprite = new Entity('glowsprite')
+// add a transform to the entity
+glowsprite.addComponent(new Transform({ position: new Vector3(18, 2, 8.5), scale: new Vector3(1,1,1), rotation: Quaternion.Euler(0, 0, 0) }))
+
+glowsprite.addComponent(new GLTFShape('models/glowsprite.glb'))
+// add the entity to the engine
+engine.addEntity(glowsprite)
+
 
 
 

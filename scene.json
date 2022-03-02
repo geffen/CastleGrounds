@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "CastleGrounds",
-    "description": "Right outside Zietgeist Castle",
+    "title": "The Wildgrass Ethermon Sanctuary",
+    "description": "A small fire hosts travellers to stay warm and train their ethermon.",
     "navmapThumbnail": "",
     "favicon": "favicon_asset"
   },
@@ -12,10 +12,10 @@
   "owner": "Geffenz",
   "scene": {
     "parcels": [
-      "138,-143",
-      "139,-143"
+      "144,-148",
+      "145,-148"
     ],
-    "base": "138,-143"
+    "base": "144,-148"
   },
   "featureToggles": {
     "voiceChat": "disabled"
@@ -24,7 +24,7 @@
     "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
   ],
   "main": "bin/game.js",
-  "tags": [ "CastleGround" ],
+  "tags": [ "Wildgrass, Ethermon, Sanctuary, Campground" ],
   "spawnPoints": [
     {
       "name": "spawn1",
