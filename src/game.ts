@@ -1,6 +1,6 @@
 
 const Grounds = new Entity('Grounds')
-Grounds.addComponent(new Transform({ position: new Vector3(32, -.1, 15.6), scale: new Vector3(1, 1, 1), rotation: Quaternion.Euler(0, 0, 0) }))
+Grounds.addComponent(new Transform({ position: new Vector3(31.8, 0, 15.6), scale: new Vector3(.99, 1, .99), rotation: Quaternion.Euler(0, 0, 0) }))
 Grounds.addComponent(new GLTFShape('models/CastleGrounds.glb'))
 engine.addEntity(Grounds)
 
